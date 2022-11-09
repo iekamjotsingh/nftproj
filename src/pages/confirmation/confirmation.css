@@ -1,0 +1,95 @@
+.confirmation {
+    padding: 30px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+}
+.confirmation-Confetti{
+    position: absolute;
+    z-index: -1;
+    top: -10%;
+    width: 50%;
+}
+.confirmation-content img {
+    width: 180px;
+    height: 180px;
+
+    /* shadows/dropShadows-secondary */
+
+    filter: drop-shadow(0px 15px 50px rgba(0, 0, 0, 0.1));
+    border-radius: 16px;
+
+    /* Inside auto layout */
+    margin-bottom: 24px;
+}
+
+.confirmation-content-heading {
+
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 54px;
+
+    text-align: center;
+
+
+    color: #1C1C1C;
+
+
+
+}
+
+.confirmation-content-para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+
+    color: #2C2C2C;
+
+}
+
+.confirmation-content-para a {
+    color: #2c2c2c;
+}
+
+.share-on-twitter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px 10px 14px;
+    /* gap: 4px; */
+
+    /* width: 182px;
+    height: 44px; */
+
+    background: #1DA1F2;
+    border-radius: 4px;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    text-align: center;
+
+
+    color: #FFFFFF;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+
+}
+.icon-confirmation{
+    margin-right: 5px;
+}

@@ -1,0 +1,116 @@
+.checkout {
+
+        padding: 30px;
+        text-align: center;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 500px;
+
+}
+
+.checkout-content {
+        width: 40%;
+        color: #1c1c1c;
+}
+
+.checkout-content_h1 {
+        margin-bottom: 10px;
+        line-height: 99%;
+}
+
+.checkout-content_p {
+        margin: 10px 0px;
+        ;
+}
+
+.wallet-desc {
+        margin: 20px 0px;
+        text-align: left;
+}
+
+.wallet-desc p {
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 8px;
+}
+
+.wallet-desc button {
+        width: 100%;
+        border: 1px solid #dcdcdc;
+        margin: 10px 0px;
+        display: flex;
+        align-items: center;
+        padding: 14px 10px;
+        font-size: 17px;
+        border-radius: 50px;
+        background: white;
+        cursor: pointer;
+        position: relative;
+}
+
+.wallet-desc button img {
+        margin-right: 10px;
+}
+
+.wallet-desc span {
+        color: #8C8C8C;
+        cursor: pointer;
+}
+
+.checkout-desc {
+        margin-top: 20px;
+}
+
+.checkout-desc_p {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        padding: 10px 0px;
+        border-bottom: 1px solid #1c1c1c;
+}
+
+.mint-button {
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+        background: #010101;
+        border-radius: 4px;
+        color: white;
+        padding: 10px 16px;
+        font-size: 16px;
+        cursor: pointer;
+}
+
+.icon-right-checkout {
+        position: absolute;
+        right: 10px;
+}
+
+.credits {
+        margin-top: 30px;
+}
+
+.credits a {
+        color: #1c1c1c;
+}
+
+@media screen and (max-width:1100px){
+        .checkout-content{
+                width: 80%;
+        }
+}
+
+@media screen and (max-width:600px){
+        .checkout-content{
+                width: 100%;
+        }
+}
+
+@media screen and (max-width:600px){
+        .checkout{
+                padding: 15px;
+        }
+}

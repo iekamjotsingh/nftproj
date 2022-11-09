@@ -1,0 +1,147 @@
+.Modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #1c1c1c8e;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #eeeeec;
+}
+
+.dismiss-modal {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+
+
+    background: rgba(28, 28, 28, 0.1);
+    border-radius: 1000px;
+
+}
+
+.modal-content {
+    /* background-color: rgba(255, 255, 255,.9);
+     */
+    width: 40%;
+    padding: 40px;
+
+
+
+
+    background: #FFFFFF;
+
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
+
+.modal-header {
+    margin: 20px 0px;
+}
+
+.modal-header h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+
+    text-align: center;
+
+
+    color: #1c1c1c;
+}
+
+.modal-header p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2c2c2c;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.modal-buttons a {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+    background: #FFFFFF;
+
+    border: 1px solid #DCDCDC;
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+
+    color: #1c1c1c;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.modal-buttons button img {
+    position: absolute;
+    left: 30px;
+}
+
+.modal-footer {
+    margin-top: 20px;
+    color: #1c1c1c;
+}
+
+.modal-footer a {
+    color: #1c1c1c;
+
+}
+
+.modal-footer p {
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.modal-footer p a {
+    text-decoration: none;
+    font-weight: normal;
+}
+@media screen and (max-width:1100px){
+    .modal-content{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .modal-content,.modal-buttons{
+        width: 90%;
+    }
+    .modal-buttons button img{
+        left: 14px;
+    }
+
+}

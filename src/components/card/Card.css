@@ -1,0 +1,11 @@
+.card-main {
+    background-color: #ffff;
+    padding: 40px 20px;
+    color: #1c1c1c;
+    width: 70%;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+}
