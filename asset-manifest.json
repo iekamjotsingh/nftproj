@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nftproj/static/css/main.d973dcc3.css",
+    "main.js": "/nftproj/static/js/main.97b16e92.js",
+    "static/media/confetti.webp": "/nftproj/static/media/confetti.faf25986253a984d83e7.webp",
+    "static/media/nft.png": "/nftproj/static/media/nft.4916b72e5ab7bb60013b.png",
+    "static/media/avatar.png": "/nftproj/static/media/avatar.c7ac18348f429cbb692a.png",
+    "static/media/metamask.svg": "/nftproj/static/media/metamask.9158430ef55669aa430936c13deb9553.svg",
+    "index.html": "/nftproj/index.html",
+    "static/media/coinbase.svg": "/nftproj/static/media/coinbase.22d6a523d1f82200f5a8157d4097a1bd.svg",
+    "main.d973dcc3.css.map": "/nftproj/static/css/main.d973dcc3.css.map",
+    "main.97b16e92.js.map": "/nftproj/static/js/main.97b16e92.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d973dcc3.css",
+    "static/js/main.97b16e92.js"
+  ]
+}
