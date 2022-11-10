@@ -61,8 +61,8 @@ const Modal = (props) => {
                     <p>{props.modaldesc}</p>
                 </div>
                 <div className='modal-buttons'>
-                    <Link to="/checkout"><button><img src={metamask} />Metamask</button></Link>
-                    <Link to="/checkout"><button><img src={coinbase} />Coinbase Wallet</button></Link>
+                    <Link to="/Checkout"><button><img src={metamask} />Metamask</button></Link>
+                    <Link to="/Checkout"><button><img src={coinbase} />Coinbase Wallet</button></Link>
                 </div>
                 <div className='modal-footer'>
                     <a href="">Learn more about wallets</a>

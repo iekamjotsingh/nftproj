@@ -45,7 +45,7 @@ const Checkout = () => {
                     </div>
                 </div>
 
-                <Link to="/confirmation"><button className='mint-button'> Mint</button></Link>
+                <Link to="/Confirmation"><button className='mint-button'> Mint</button></Link>
 
                 <p className='credits'><b>Powered by</b><a href=""> RareCircles</a></p>
             </motion.div>
