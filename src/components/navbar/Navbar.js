@@ -8,7 +8,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <div className='Navbar'>
-            <Link to="/Products">
+            <Link to="/">
                 <motion.img src={Logo} alt={Logo + `Rare circles`} className="Navbar-Logo" animate={{
                     x: [0, 0, 0],
                     scale: [0, 1.4, 1]
