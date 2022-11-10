@@ -15,7 +15,7 @@ function App() {
     <div className="App container">
       <Navbar />
       <Routes>
-        <Route exact path="/Products" element={<Product/>}></Route>
+        <Route path="/Products" element={<Product/>}></Route>
         <Route exact path="/Checkout" element={<Checkout />}></Route>
         <Route exact path="/Confirmation" element={<Confirmation/>}></Route>
       </Routes>
